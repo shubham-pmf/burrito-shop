@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "commonjs",
+      "lib": ["es6"],
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "resolveJsonModule": true,
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["node_modules/*", "src/types/*"]
+      },
+      "types": ["node"],
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": false
+    },
+    "include": ["src/**/*.ts"],
+    //"exclude": ["node_modules"]
+  }
+  

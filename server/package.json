@@ -1,0 +1,26 @@
+{
+  "name": "burrito-shop-backend",
+  "version": "1.0.0",
+  "description": "Backend for Burrito Shop",
+  "main": "dist/server.js", 
+  "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/ts-node src/server.ts",
+    "build": "tsc", 
+    "serve": "node dist/server.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["burrito", "backend", "express", "mongodb"],
+  "author": "Kashyap Chaganti",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.4.3"
+  }
+}
